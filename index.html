@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<header>
+    <title>My Favorite Restaurants</title>
+    <link rel="stylesheet" href="./assets/stylesheets/default.css">
+</header>
+
+<body bgcolor="SkyBlue">
+    <h1>My Favorite Restaurants</h1>
+    <h2>Located in Rio Rancho/Albuquerque New Mexico</h2>
+    <p id="center">
+        (Clicking on the picture will take you to that Restaurant's website)
+    </p>
+
+    <ul>
+        <li>
+            <h2>Italian</h3>
+        </li>
+        <table width="90%" align="center">
+            <tr>
+                <th width="100px">Picture</th>
+                <th>Name & Description</th>
+                <th width="95px">Phone</th>
+            </tr>
+            <tr>
+                <td><a href="http://joespastahouse.com/" target="_blank"> <img src=" ./assets/images/JoesPastaHouse.jpg"
+                        width="100px"></a></td>
+                <td>
+                    <h3>Joe's Pasta House</h3>
+                    <p>
+                        Lovely ambiance, wonderful service, and great food. Be sure to take home some Bruchetta!
+                    </p>
+                </td>
+                <td>505-892-3333</td>
+            </tr>
+            <tr>
+                <td><a href="http://www.mtuccis.com" target="_blank"> <img src=" ./assets/images/mtuccis.jpg" width="100px"></a></td>
+                <td>
+                    <h3>M'tucci's Moderno</h3>
+                    Great view of the mountains. Their food is consistently excelent and the service is outstanding. it
+                    is fast becoming one of my favorite places to meet friends.
+                </td>
+                <td>505-891-2432</td>
+            </tr>
+        </table>
+
+        <li>
+            <h2>Mexican</h3>
+        </li>
+        <table width="90%" align="center">
+            <tr>
+                <th>Picture</th>
+                <th width="60%">Name & Description</th>
+                <th>Phone</th>
+            </tr>
+            <tr>
+                <td><a href="http://www.elpinto.com" target="_blank"> <img src=" ./assets/images/elpintos.jpg" width="100px"></a></td>
+                <td>
+                    <h3>El Pinto</h3>
+                    Great food and service with amazing atmosphere. Comfortable outdoor dining year round.
+                </td>
+                <td>505-898-1771</td>
+            </tr>
+            <tr>
+                <td><a href="http://www.sadiesofnewmexico.com/locations/academy/" target="_blank"> <img src="
+                        ./assets/images/sadies.jpg" width="100px"></a></td>
+                <td>
+                    <h3>Sadie's on Academy</h3>
+                    Delicious New Mexican fare! Wonderful place to grab some great food, in a lively setting
+                </td>
+                <td>505-821-9034</td>
+            </tr>
+        </table>
+
+        <li>
+            <h2>Native American</h3>
+        </li>
+        <table width="90%" align="center" border="">
+            <tr>
+                <th>Picture</th>
+                <th width="60%">Name & Description</th>
+                <th>Phone</th>
+            </tr>
+            <tr>
+                <td><a href="http://indianpueblo.org/restaurant/" target="_blank"> <img src="./assets/images/PuebloHarvest.jpg" width="100px"></a>
+                </td>
+                <td>
+                    <h3>Indian Pueblo Kitchen</h3>
+                    Unforgettable Indigenous dining experience inside the Indian Pueblo Cultural Center.
+                </td>
+                <td>505-821-9034</td>
+            </tr>
+        </table>
+    </ul>
+</body>
+
+<footer>
+    <h2><br>For more info, fill in the form below.</h3>
+        <form action="" method="post" name="hgmailer" >
+            <form action="./index.html" method="post"> 
+            <input type="hidden" name="recipient" value="len@lenscameralens.com"> 
+            <input type="hidden" name="subject" value="E-Mail From Express Holidays"> 
+
+            <p>
+                <label for="firstName">First Name:</label>
+                <input type="text" size="20" maxlength="50" name="firstName" id="firstName"/>
+                <label for="lastName">&nbsp;&nbsp; Last Name: </label>
+                <input type="text" size="20" maxlength="50" name="lastName" id="lastName"><br>
+            </p>
+            <p>
+                <label for="address1">&nbsp;&nbsp;Address 1:</label>
+                <input type="text" size="20" maxlength="50" name="address1" id="address1"> 
+                <label for="address2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Address 2:</label>
+                <input type="text" size="20" maxlength="50" name="address2" id="address2"><br>
+            </p>
+            <p>
+                <label for="city">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;City:</label>
+                <input type="text" size="20" maxlength="20" name="city" id="city">
+                 &nbsp;&nbsp;State:&nbsp;
+                <input type="text" size="2" maxlength="2" name="state" id="state">
+                &nbsp;&nbsp;Zip Code:&nbsp; 
+                <input type="text" size="10" maxlength="10" name="zipCode" id="zipCode"><br>
+            </p>
+            <p>
+                <label for="phone">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Phone:</label>
+                <input type="text" size="16" maxlength="16" name="phone" id="phone">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;eMail:&nbsp;
+                <input type="text" size="30" maxlength="30" name="email" id="email">
+            </p>
+            <p>
+                <label for="cuisine">Preferred Cuisine: </label>
+                <select id="cuisine" name="cuisine">
+                    <option value="Mexican" default>Mexican</option>
+                    <option value="Itallian">Italian</option>
+                    <option value="NativeAmerican">Native American</option>
+                    <option value="Chinese">Chinese</option>
+                    <option value="Everything">Everything!</option>
+                </select>
+                <label for="PrefCity">&nbsp;&nbsp;Prefered City:&nbsp;&nbsp; </label>
+                <input type="checkbox" id="RioRancho" name="RioRancho">
+                <label for="RioRancho">Rio Rancho&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                <input type="checkbox" id="Albuqueque" name="Albuqueque">
+                <label for="Albuqueque">Albuqueque</label>
+            </p>
+            <p>
+                <div>
+                    The "Official Question" of New Mexico:
+                    <label for="chili">&nbsp;&nbsp;Red or Green? &nbsp;&nbsp;</label>
+                    <input type="radio" id="red"
+                    name="chili" value="Red">
+                   <label for="red">Red&nbsp;&nbsp;</label>
+               
+                   <input type="radio" id="green"
+                    name="chili" value="Green" checked>
+                   <label for="green">Green&nbsp;&nbsp;</label>
+               
+                   <input type="radio" id="christmas"
+                    name="chili" value="Christmas">
+                   <label for="Christmas">Christmas</label>
+                </div>
+            </p>
+            <p>
+                <label for="request">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Notes:<br></label>
+                <textarea name="request" cols="80" rows="5" id="request"></textarea><br>
+            </p>
+            <p align="center">
+                <input type="reset" value="Submit" name="btnSubmit">
+            </p>                
+          </form>
+
+</footer>
+
+</html>
