@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Vote for YOUR Favorite Restaurant</title>
+    <!-- Required meta tags and Bootstrap CSS -->
+    <meta charset="utf-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Space+Mono&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Roboto+Condensed&family=Space+Mono&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="./assets/stylesheets/default.css">
+</head>
+
+<body bgcolor="SkyBlue">
+
+    <header>
+        <div class="menu">
+            <img style=" float: left; padding-right: 5px; vertical-align: bottom;"
+                src="./assets/images/restaurant-5841.png" width="50px">
+            <ul>
+                <li class="inline-list"><a href="./index.html">&nbsp;Home&nbsp;</a></li>
+                <li class="inline-list"><a href="./restABQ.html">Albuquerque</a></li>
+                <li class="inline-list"><a href="./restSF.html">&nbsp;Santa&nbsp;Fe&nbsp;</a></li>
+                <li class="inline-list"><a href="#">&nbsp;Vote&nbsp;for&nbsp;YOUR&nbsp;Favorite!&nbsp;</a></li>
+                <figure id="hdr-fig">
+                    <figcaption id="hdr-fig-caption">View Cart</figcaption>
+                    <img src="./assets/images/shopping-cart-icon-md.png" height="18px" alt="">
+                </figure>
+                <form action="" method="post" style="float:right">
+                    <input type="text" size="20" maxlength="50" name="search" id="search">
+                    <img src="./assets/images/Search-icon.png" height="18px" alt=""
+                        style="background-color: red; float: right; padding:2px; align-content: center;">
+                </form>
+            </ul>
+        </div>
+    </header>
+
+    <div style="margin: auto;">
+        <h2 class="center">To vote for YOUR favorite restaurant,<br>please fill in the form below.</h2>
+        <div>
+            <form class="fitcontent" action="" method="post" name="hgmailer" style="border: 3px solid darkblue;">
+                <input type="hidden" name="recipient" value="len@lenscameralens.com">
+                <input type="hidden" name="subject" value="E-Mail From Express Holidays">
+
+                <label for="name">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Your Name:</label>
+                <input type="text" size="30" maxlength="50" name="name" id="name" /><br><br>
+                <label for="email">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Your eMail:</label>
+                <input type="text" size="30" maxlength="30" name="email" id="email"><br><hr><br>
+                <label for="restName">&nbsp;Restaurant Name:</label>
+                <input type="text" size="40" maxlength="50" name="restName" id="restName"><br><br>
+                <label for="address">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Address:</label>
+                <input type="text" size="40" maxlength="50" name="address" id="address"><br><br>
+                <label for="city">City:</label>
+                <input type="text" size="20" maxlength="20" name="city" id="city">
+                <label for="state">ST:</label>
+                <input type="text" size="2" maxlength="2" name="state" id="state">
+                <label for="zipCode">Zip:</label>
+                <input type="text" size="10" maxlength="10" name="zipCode" id="zipCode"><br><br>
+
+                <label for="phone">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Phone Number:</label>
+                <input type="text" size="16" maxlength="16" name="phone" id="phone"><br><br>
+
+                <label for="website">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Website:</label>
+                <input type="text" size="25" maxlength="75" name="website" id="website"><br><br>
+
+                <label for="cuisine">&nbsp;Type of Cuisine:</label>
+                <select id="cuisine" name="cuisine">
+                    <option value="American">American</option>
+                    <option value="Chinese">Chinese</option>
+                    <option value="Itallian">Italian</option>
+                    <option value="Mexican">Mexican</option>
+                    <option value="NativeAmerican">Native American</option>
+                    <option value="other"> (Other)</option>
+                </select>
+                <span style="font-size: 8pt;">(If "Other", please indicate type in description)</span>
+
+                <div>
+                    <label for="description"><br><br>&nbsp;&nbsp;Description:<br></label>
+                    <textarea name="description" cols="57" rows="5" id="description"></textarea><br><br>
+                    <div class="center"><input type="reset" value="Submit" name="btnSubmit"></div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <br>
+
+</body>
+
+<footer>
+    <div class="menuFoot">
+        <ul>
+            <li class="inline-list"><a href="./index.html">&nbsp;Home&nbsp;</a></li>
+            <li class="inline-list"><a href="./restABQ.html">Albuquerque</a></li>
+            <li class="inline-list"><a href="./restSF.html">&nbsp;Santa&nbsp;Fe&nbsp;</a></li>
+            <li class="inline-list"><a href="./vote.html">&nbsp;Vote&nbsp;for&nbsp;YOUR&nbsp;Favorite!&nbsp;</a></li>
+        </ul>
+        <h3 style="color:white;">Copyright &copy; 2022, All rights reserved</h3>
+    </div>
+</footer>
+
+</html>
