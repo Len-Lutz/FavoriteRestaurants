@@ -28,7 +28,7 @@ td {
     padding: 2px;
 }
 
-form {
+.showBox {
     box-shadow: 5px 5px;
 }
 
@@ -112,20 +112,19 @@ li.inline-list {
     position: relative;
     top: -15px;
     vertical-align: super;
-    background-color: red;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     border: 0px;
     margin: 0px;
     margin-left: 5px;
-    margin-top: -5;
+    margin-top: -10;
     /*    margin-bottom: 10px; */
     padding: 3px 3px 3px 15px;
 }
 
 #hdr-fig-caption {
     color: white;
-    font-size: 10pt;
+    font-size: 8pt;
     text-align: right;
     margin-left: -10px;
 }
