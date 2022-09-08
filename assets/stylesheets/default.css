@@ -8,6 +8,10 @@ h1 {
     font-family: 'Dancing Script', cursive;
 }
 
+body {
+    background-color: skyblue;
+}
+
 div > p {
     max-width: 800px;
     margin: auto;
@@ -26,6 +30,10 @@ td {
     border: 1px solid black;
     border-collapse: collapse;
     padding: 2px;
+}
+
+table {
+    width: 90%; margin: auto; border:0pt;
 }
 
 .showBox {
